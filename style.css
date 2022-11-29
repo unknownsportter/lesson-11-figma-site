@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    background-color: #e5e5e5;
+    font-family: 'Raleway', sans-serif;
+}
+
+.headding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50rem;
+    background-image: url(assent/Websitemockup/BG\ IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo1 {
+    width: 3rem;
+    height: 3rem;
+    background-image: url(assent/Websitemockup/SP01.svg);
+    position: absolute;
+    left: 2.5%;
+    top: 1.5rem;
+}
+.design_img {
+    width: 50rem;
+    height: 1.7rem;
+    padding: 2rem 0;
+}
+
+@media screen and (max-width: 60rem) {
+    .design_img {
+        width: 85%;
+    }
+}
+
+.headding_p {
+    color: #ffffff;
+    width: 80%;
+    height: 0.9rem;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    padding: 0.1rem 0 3rem 0;
+}
+
+.yellow_btn {
+    background-color: yellow;
+    color: #0b0b0b;
+    padding: 1.5rem;
+    font-weight: 550;
+    border-radius: 8%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 31rem) {
+    .yellow_btn {
+        margin: 3rem 0 0 0;
+    }
+}
+
+.yellow_btn:hover {
+    background-color: rgb(199, 199, 48);
+    color: bisque;
+}
+
+.mountain_and_p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.mountain_logo {
+    margin: 3rem 0;
+}
+
+.mountain_and_p > p {
+    width: 33.3%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 8rem 0;
+}
+
+@media screen and (max-width: 48rem) {
+    .mountain_and_p > p {
+        width: 85%;
+    }
+}
+
+.big_cards_container {
+    background-color: #e5e5e5;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.axe_h2_and_p {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.axe_logo {
+    margin: 8rem 0 0 0;
+}
+.axe_h2 {
+    margin: 1.5rem 0;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+}
+
+.axe_p {
+    width: 100%;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem 0 8rem 0;
+}
+
+@media screen and (max-width: 50rem) {
+    .axe_p {
+        width: 85%;
+    }
+}
+
+.cards_container_1 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 75rem) {
+    .cards_container_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.service_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 17.5rem;
+    height: 22.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 75rem) {
+    .service_div {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 37.5rem) {
+    .service_div {
+        width: 70%;
+        height: 30%;
+    }
+}
+
+.service_div > img {
+    margin-top: 1.5rem;
+}
+
+.service_div > h3 {
+    margin: 2rem;
+}
+
+.service_div > p {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin: 0 0.4rem 0 0.4rem;
+}
+@media screen and (max-width: 75rem) {
+    .service_div > h3 {
+        padding: 4rem;
+        font-size: 2rem;
+    }
+    .service_div > p {
+        font-size: 1.6rem;
+        width: 75%;
+        padding-bottom: 3.3rem;
+    }
+}
+
+.cards_container_2 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.white_div_card {
+    margin: 0.8rem 0;
+    background-color: #f4f4f4;
+    width: 17.5rem;
+    height: 11.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.p_card {
+    margin-left: 0.8rem;
+    font-weight: 500;
+}
+
+.yellow_bar {
+    background-color: #fde500;
+    height: 0.3rem;
+    width: 12.5rem;
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 75rem) {
+    .cards_container_2 * {
+        display: none;
+    }
+}
+
+.black_div_with_info {
+    width: 100%;
+    height: 15.1rem;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 75rem) {
+    .black_div_with_info {
+        height: 50rem;
+        flex-direction: column;
+    }
+}
+
+.small_white_info_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 8px rgba(194, 194, 194, 0.726);
+    height: 50%;
+    width: 17.5rem;
+}
+
+@media screen and (max-width: 75rem) {
+    .small_white_info_div {
+        height: 22%;
+        width: 60%;
+    }
+}
+
+.small_white_info_div > p {
+    text-align: center;
+    padding-top: 0.8rem;
+    margin: 0.2rem;
+    line-height: 70%;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+.sp_logo {
+    position: relative;
+    bottom: 0.1rem;
+}
+
+@media screen and (max-width: 37.5rem) {
+    .small_white_info_div > p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 75rem) {
+    .img_of_lines {
+        width: 90%;
+    }
+}
