@@ -104,6 +104,7 @@ body {
 }
 
 .axe_h2_and_p {
+    background-color: #e5e5e5;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -279,11 +280,6 @@ body {
     font-size: 1.2rem;
 }
 
-.sp_logo {
-    position: relative;
-    bottom: 0.1rem;
-}
-
 @media screen and (max-width: 37.5rem) {
     .small_white_info_div > p {
         font-size: 1rem;
@@ -294,4 +290,65 @@ body {
     .img_of_lines {
         width: 90%;
     }
+}
+
+.sp_logo_lines_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sp-logo {
+    position: relative;
+    top: 5.5rem;
+}
+
+.div_container_with_inline_p {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.div_with_p_inline {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.line_of_imgs {
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 1px 8px rgba(194, 194, 194, 0.726);
+}
+
+.yellow_under_div {
+    background-color: #fde500;
+    position: absolute;
+    left: 680px;
+    top: 3310px;
+    width: 240px;
+    height: 258px;
+}
+
+.white_top_div {
+    background-color: #ffffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    left: 650px;
+    top: 3343px;
+    width: 300px;
+    height: 190px;
+    box-shadow: 1px 1px 8px rgba(194, 194, 194, 0.726);
+}
+
+.white_top_div > p {
+    margin: 30px 12px;
+    line-height: 22px;
 }
