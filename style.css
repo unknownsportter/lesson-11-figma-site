@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     overflow-x: hidden;
     width: 100vw;
@@ -20,6 +21,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .logo1 {
     width: 3rem;
     height: 3rem;
@@ -28,6 +30,7 @@ body {
     left: 2.5%;
     top: 1.5rem;
 }
+
 .design_img {
     width: 50rem;
     height: 1.7rem;
@@ -65,7 +68,9 @@ body {
     }
 }
 
-.yellow_btn:hover {
+.yellow_btn:hover,
+.yellow_btn2:hover,
+.yellow_btn3:hover {
     background-color: rgb(199, 199, 48);
     color: bisque;
 }
@@ -115,6 +120,7 @@ body {
 .axe_logo {
     margin: 8rem 0 0 0;
 }
+
 .axe_h2 {
     margin: 1.5rem 0;
     text-align: center;
@@ -150,6 +156,7 @@ body {
         align-items: center;
     }
 }
+
 .service_div {
     display: flex;
     flex-direction: column;
@@ -161,6 +168,7 @@ body {
     background-color: #f4f4f4;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
+
 @media screen and (max-width: 75rem) {
     .service_div {
         width: 60%;
@@ -189,6 +197,7 @@ body {
     line-height: 1.8rem;
     margin: 0 0.4rem 0 0.4rem;
 }
+
 @media screen and (max-width: 75rem) {
     .service_div > h3 {
         padding: 4rem;
@@ -328,10 +337,10 @@ body {
 .yellow_under_div {
     background-color: #fde500;
     position: absolute;
-    left: 680px;
-    top: 3310px;
-    width: 240px;
-    height: 258px;
+    left: 42.5rem;
+    top: 206.875rem;
+    width: 15rem;
+    height: 16.125rem;
 }
 
 .white_top_div {
@@ -341,14 +350,53 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    left: 650px;
-    top: 3343px;
-    width: 300px;
-    height: 190px;
+    left: 40.625rem;
+    top: 208.938rem;
+    width: 18.75rem;
+    height: 11.875rem;
     box-shadow: 1px 1px 8px rgba(194, 194, 194, 0.726);
 }
 
 .white_top_div > p {
-    margin: 30px 12px;
-    line-height: 22px;
+    margin: 1.875rem 0.75rem;
+    line-height: 1.345rem;
+}
+
+.white_div_with_btn {
+    width: 100%;
+    height: 15rem;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow_btn2 {
+    background-color: #fde500;
+    width: 16.875rem;
+    height: 2.813rem;
+}
+
+.div_img_with_btn {
+    width: 100%;
+    height: 23.75rem;
+    background-image: url(assent/Websitemockup/View.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow_btn3 {
+    background-color: #fde500;
+    height: 4.8rem;
+    width: 23.2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    letter-spacing: 0.5em;
+    text-align: center;
 }
